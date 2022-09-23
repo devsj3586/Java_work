@@ -17,6 +17,8 @@ public class DatatypeTest {
         // - 자료형 크기 비교
 
         //  byte (1)  < short (2)< int (4) < long (8) < float (4) < double (8) < String
+        // long : 2^64
+        // float : 2^127 > 부종소수점 채택 (floating-point) 사실상 유효범위가 더 넒음 long 보다.
         // 작은 발은 큰 신발에 들어갈 수 있음
         // 작은 리터럴은 큰 변수공간에 들어갈 수 있음
         byte y = (byte)1000;// type casting(명시적 형번환) 강제로 넣음 데이터 손실 있을수 있다.
