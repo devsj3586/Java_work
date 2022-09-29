@@ -1,4 +1,4 @@
-package me.java.comment;
+package me.java.day1.comment;
 
 public class comment {
     public static void main(String[] args) {
